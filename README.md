@@ -214,6 +214,82 @@ say_hi()
 
 ---
 
+**remaining Python data types**, **logical operators**, and a new **bonus table of useful built-in functions/methods** like `range()`, all presented in the same magical, kid-friendly tone:
+
+---
+
+## 🧪 More Potion Types: More Data Types
+
+Besides `str`, `int`, `float`, and `bool`, Python has **magic containers** to hold many things at once!
+
+| Type    | Example                         | What It Does                          |
+| ------- | ------------------------------- | ------------------------------------- |
+| `list`  | `["apple", "banana", "cherry"]` | A list of items you can change        |
+| `tuple` | `("red", "green", "blue")`      | A list that **cannot be changed**     |
+| `set`   | `{"dragon", "elf", "wizard"}`   | Like a bag of unique items            |
+| `dict`  | `{"name": "Luna", "age": 12}`   | Stores items with **key-value pairs** |
+
+### 🧺 Examples
+
+```python
+fruits = ["apple", "banana", "cherry"]  # List
+colors = ("red", "green", "blue")       # Tuple
+animals = {"dragon", "elf", "wizard"}   # Set
+player = {"name": "Luna", "score": 99}  # Dictionary
+
+print(fruits[0])          # apple
+print(colors[2])          # blue
+print("elf" in animals)   # True
+print(player["score"])    # 99
+```
+
+---
+
+## 🔮 More Logical Spells: Python Operators
+
+We already saw math operators like `+`, `-`, `*`, `/`, `==`, `!=`.
+Let’s now learn **logical** and **membership** operators!
+
+| Operator | Meaning                      | Example            | Result       |
+| -------- | ---------------------------- | ------------------ | ------------ |
+| `and`    | Both must be true            | `True and True`    | `True`       |
+| `or`     | One must be true             | `True or False`    | `True`       |
+| `not`    | Flips the truth              | `not True`         | `False`      |
+| `in`     | Is it inside?                | `"a" in "cat"`     | `True`       |
+| `not in` | Is it NOT inside?            | `"z" not in "cat"` | `True`       |
+| `is`     | Are they the same thing?     | `a is b`           | `True/False` |
+| `is not` | Are they NOT the same thing? | `a is not b`       | `True/False` |
+
+---
+
+## 🛠️ Bonus Tools Table: Common Python Methods & Functions
+
+Here are some **magic tools** you’ll use a lot:
+
+| Function/Method         | What It Does                                  | Example                     | Result                 |
+| ----------------------- | --------------------------------------------- | --------------------------- | ---------------------- |
+| `print()`               | Shows something on the screen                 | `print("Hi!")`              | `Hi!`                  |
+| `type()`                | Tells the type of a value                     | `type(5)`                   | `<class 'int'>`        |
+| `len()`                 | Counts how many items or letters              | `len("dragon")`             | `6`                    |
+| `range()`               | Makes a list of numbers to use in loops       | `range(5)`                  | `0, 1, 2, 3, 4`        |
+| `str()`                 | Turns something into a string                 | `str(10)`                   | `"10"`                 |
+| `int()`                 | Turns something into an integer               | `int("7")`                  | `7`                    |
+| `float()`               | Turns something into a decimal                | `float("3.14")`             | `3.14`                 |
+| `input()`               | Asks the user for something                   | `input("Name? ")`           | (user types something) |
+| `.append()`             | Adds an item to a list                        | `my_list.append("new")`     | List gets a new item   |
+| `.pop()`                | Removes and returns the last item from a list | `x = my_list.pop()`         | Removes last item      |
+| `.split()`              | Splits a string into a list                   | `"a,b,c".split(",")`        | `["a", "b", "c"]`      |
+| `.join()`               | Joins a list into a string                    | `" ".join(["a", "b", "c"])` | `"a b c"`              |
+| `.lower()` / `.upper()` | Changes string case                           | `"Hi".lower()`              | `"hi"`                 |
+| `sorted()`              | Sorts a list (without changing original)      | `sorted([3,1,2])`           | `[1, 2, 3]`            |
+| `sum()`                 | Adds up all numbers in a list                 | `sum([1, 2, 3])`            | `6`                    |
+| `max()` / `min()`       | Finds biggest/smallest number                 | `max([3, 8, 2])`            | `8`                    |
+
+---
+
+
+</br></br></br>
+
 ## 🗺️ Part 2: Your Next Adventure
 
 You've finished the **first journey**! 🏆 You're now a young code magician.
