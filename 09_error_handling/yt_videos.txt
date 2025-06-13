@@ -1,1 +1,1 @@
-[{"title": "Chai Aur Code Video Num 20", "time": "1 hour", "url": "https://www.youtube.com/watch?v=nqE4HOtZt1Y", "description": "Visit https://chaicode.com for all related materials"}, {"title": "Chai Aur Python", "time": "40 min", "url": "https://www.youtube.com/watch?v=nqE4HOtZt1Y", "description": "hello"}]
+[{"title": "Chai Aur Python", "time": "40 min", "url": "https://www.youtube.com/watch?v=nqE4HOtZt1Y", "description": "hello"}]

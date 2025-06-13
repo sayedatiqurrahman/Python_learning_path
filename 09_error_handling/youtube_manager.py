@@ -10,6 +10,7 @@ file_path = 'yt_videos.txt'
 # methods or functions to handle the operations
 def load_data():
     try:
+        # print("Loading video data from file...")
         with open(file_path, 'r') as file:
             result = json.load(file)
             # print(type(result))  # Debugging line to check the type of result
@@ -31,12 +32,16 @@ def list_all_videos(videos):
     if not videos:
         print("No videos available.")
     else:
-        # for index, video in enumerate(videos, start=1):
-        #     print(f"{index}. Title: {video['title']}, URL: {video['url']}, Description: {video['description']}")
-
-        for video in videos:
-            # print(f"Title: {video['title']}, Time: {video['time']}, URL: {video['url']}, Description: {video['description']}")
-            print(f"{video}")
+        print("\n")
+        print("="* 30 + " YouTube Videos " + "="* 30)
+        print(f"Total number of videos: {len(videos)}")
+        print("*"* 70)
+        print("Here are your favourite videos:")
+        for index, video in enumerate(videos, start=1):
+            print(f"\n{index}. Title: {video['title']}, duration: {video['time']} , URL: {video['url']}, Description: {video['description'][0:7]}...")
+        print("\n")
+        print("*"* 70)
+   
 
 def add_video(videos):
     name = input("Enter the video title: ")
@@ -54,12 +59,46 @@ def add_video(videos):
     print("Video added successfully!")
 
 def update_video(videos):
-    print("Updating a YouTube video...")
-    pass
+    list_all_videos(videos)
+    if not videos:
+        print("No videos available to update.")
+        return
+    
+    index = int(input("Enter the index of the video to update: "))
+
+    original_video = videos[index - 1] if 1 <= index <= len(videos) else None
+    if 1 <= index <= len(videos):
+        name = input("Enter the new title: ")
+        time = input("Enter the new duration time: ")
+        url = input("Enter the new URL: ")
+        description = input("Enter the new description: ")
+
+        videos[index - 1] = {
+        "title": name if name else original_video['title'],
+        "time": time if time else original_video['time'],
+        "url": url if url else original_video['url'],
+        "description": description if description else original_video['description']
+        }
+
+    save_data_helper(videos)
+    print("\n--- Video Updated Successfully ---")
+    print(f"Updated Video: {videos[index - 1]}")
+    
 
 def delete_video(videos):
-    print("Deleting a YouTube video...")
-    pass
+    list_all_videos(videos)
+    if not videos:
+        print("No videos available to delete.")
+        return
+    
+    index = int(input("Enter the index of the video to delete: "))
+    
+    if 1 <= index <= len(videos):
+        deleted_video = videos.pop(index - 1)
+        save_data_helper(videos)
+        print(f"Video '{deleted_video['title']}' deleted successfully!")
+    else:
+        print("Invalid index. No video deleted.")
 
 
 
