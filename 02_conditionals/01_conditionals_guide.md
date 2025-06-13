@@ -208,3 +208,8 @@ print(grade(55))  # F
 | Ternary Operator  | One-line conditional       | `a if condition else b` |
 
 ---
+
+
+</br></br>
+
+## --> Now open `problems.md` and solve the `problems`

@@ -245,3 +245,7 @@ for i in range(1, 21):
 | Nested loops   | Loops inside loops             | `for i in ... for j in ...` |
 
 ---
+
+
+</br></br>
+##  --> Now open `problems.md` and solve the `problems`
