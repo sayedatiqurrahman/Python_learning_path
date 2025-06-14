@@ -342,7 +342,16 @@ Remember, even the best coders started with baby steps.
 ├── 06_scopes_and_clouser/
 ├── 07_oop/
 ├── 08_decorators/
-```
+├── 09_error_handling/ 🐛 [Learn about error handling in Python](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/09_error_handling).
+├── 10_terminal_YT_Manager_app_with_sqlite3/ 🎬 [Build a terminal-based YouTube manager app with SQLite](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/10_terminal_YT_Manager_app_with_sqlite3).
+├── 11_api_handling_with_http_request/ 📡 [Learn API handling with HTTP requests](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/11_api_handling_with_http_request).
+├── 12_PYTHON_MONGODB/ 🍃 [Explore MongoDB with Python](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/12_PYTHON_MONGODB).
+├── 13_vertual_environment_py/ ⚙️ [Learn about virtual environments in Python](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/13_vertual_environment_py).
+├── 14_Open_Source_Code_of_Python/ 💡 [Explore open source codebases in Python](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/14_Open_Source_Code_of_Python).
+├── 15_conda/ 🧪 [Learn about Conda](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/15_conda).
+├── 16_jupyter/ 📒 [Learn about Jupyter Notebooks](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/16_jupyter).
+├── 17_farewell_of_python/ 👋 [Python career paths](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/17_farewell_of_python).
+├── 18_Python_for_Js_developer (Optional)/ 🚀 [Python for JavaScript Developers: Learn Python frameworks like FastAPI and Django](https://github.com/sayedatiqurrahman/Python_learning_path/tree/main/18_Python_for_Js_developer (Optional)).
 
 Each one has:
 
@@ -359,4 +368,3 @@ You're not just learning code — you're **learning to think**, to build, and to
 Now go, little code sorcerer — **the magic is in your hands!** ✨🐍🪄
 
 ---
-
