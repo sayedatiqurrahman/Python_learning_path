@@ -42,7 +42,6 @@ Here are some Python-specific open-source projects that are great for exploratio
 
 
 
-
 ## 🔎 Example: Exploring the `print` Function in CPython 🔎
 
 Let's explore how the built-in `print` function works in CPython.
