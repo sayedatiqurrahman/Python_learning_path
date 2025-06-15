@@ -284,6 +284,10 @@ Here are some **magic tools** you’ll use a lot:
 | `sorted()`              | Sorts a list (without changing original)      | `sorted([3,1,2])`           | `[1, 2, 3]`            |
 | `sum()`                 | Adds up all numbers in a list                 | `sum([1, 2, 3])`            | `6`                    |
 | `max()` / `min()`       | Finds biggest/smallest number                 | `max([3, 8, 2])`            | `8`                    |
+| `*` (single asterisk)   | Spread for lists/iterables                    | `[*list1, item1, item2]`   | Creates new list        |
+| `**` (double asterisk) | Spread for dictionaries                       | `{**dict1, key1: val1}`    | Creates new dictionary  |
+| `*args`                | Collects positional arguments in a function   | `def func(*args):`          | Tuple of arguments      |
+| `**kwargs`             | Collects keyword arguments in a function      | `def func(**kwargs):`         | Dict of arguments       |
 
 ---
 
