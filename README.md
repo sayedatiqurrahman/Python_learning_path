@@ -32,6 +32,14 @@ Before we begin, make sure you’re ready!
 
   * For grown-up kids: 💻 **VS Code** – powerful and used by many developers. We highly recommend VS Code. Download it from the official website: [VS Code Download](https://code.visualstudio.com/download).
   * For young kids: 🐸 **Thonny** – very simple and easy to use. Download it from [thonny.org](https://thonny.org/).
+* ➕ **Creating and Using Python Files:**
+    1. Create a project folder (e.g., `learning-python`) on your Desktop or in a preferred drive.
+    2. Open VS Code and either open the project folder directly or drag the folder into VS Code.
+    3. In VS Code, create a new file within the project folder (e.g., `hello.py`). Make sure the file ends with the `.py` extension.
+    4. Write your Python code in the file.
+    5. To run the file:
+        * In VS Code, right-click in the editor and select "Run Python File in Terminal".
+        * In Thonny, click the green "Run" button.
 
 ---
 
@@ -289,7 +297,7 @@ Here are some **magic tools** you’ll use a lot:
 | `type()`               | Tells the type of a value                     | `type(5)`                   | `<class 'int'>`        |
 | `len()`               | Counts how many items or letters              | `len("dragon")`             | `6`                    |
 | `range()`               | Makes a list of numbers to use in loops       | `range(5)`                  | `0, 1, 2, 3, 4`        |
-| `str()`               | Turns something into a string                 | `str(10)`                   | `"10"`                 |
+| `str()`               | Tells the type of a value                     | `type("7")`                  | `<class 'str'>`        |
 | `int()`               | Turns something into an integer               | `int("7")`                  | `7`                    |
 | `float()`               | Turns something into a decimal                | `float("3.14")`             | `3.14`                 |
 | `input()`               | Asks the user for something                   | `input("Name? ")`           | (user types something) |
