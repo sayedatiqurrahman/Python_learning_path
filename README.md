@@ -30,8 +30,8 @@ Before we begin, make sure you’re ready!
 * ✅ **Install Python**: Go to [python.org/downloads](https://www.python.org/downloads/). When installing, make sure you check ✅ **“Add Python to PATH”**.
 * 🖥️ **Pick a Code Editor**:
 
-  * For young kids: 🐸 **Thonny** – very simple and easy to use. Download it from [thonny.org](https://thonny.org/).
   * For grown-up kids: 💻 **VS Code** – powerful and used by many developers. We highly recommend VS Code. Download it from the official website: [VS Code Download](https://code.visualstudio.com/download).
+  * For young kids: 🐸 **Thonny** – very simple and easy to use. Download it from [thonny.org](https://thonny.org/).
 
 ---
 
