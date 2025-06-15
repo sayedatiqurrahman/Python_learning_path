@@ -14,6 +14,8 @@ PyMongo is the official Python driver for MongoDB. It allows you to interact wit
 
 ### Installing MongoDB
 
+It's important to note that you don't necessarily need to install MongoDB locally. You can also use MongoDB Atlas, a cloud database service, which eliminates the need for local installation.
+
 1.  **Download MongoDB:** Visit the official MongoDB website ([https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)) and download the appropriate version for your operating system.
 2.  **Install MongoDB:** Follow the installation instructions provided on the MongoDB website.
 3.  **Set up Environment Variables:** Add the MongoDB `bin` directory to your system's PATH environment variable. This allows you to run MongoDB commands from any terminal window.
